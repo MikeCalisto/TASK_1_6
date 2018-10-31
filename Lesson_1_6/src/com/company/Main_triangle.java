@@ -49,8 +49,8 @@ public class Main_triangle {
             angle3 = Math.toDegrees(x3);
 
             System.out.println("Angle (c): " + Math.floor(angle1));
-            System.out.println("Angle (c): " + Math.floor(angle2));
-            System.out.println("Angle (c): " + Math.floor(angle3));
+            System.out.println("Angle (b): " + Math.floor(angle2));
+            System.out.println("Angle (a): " + Math.floor(angle3));
 
         }else if ( v > a && u > a && j > a && v > b && u > b && j > b && v > c && u > c && j > c ) {
             x1 = Math.acos((Math.pow(b, 2) + Math.pow(c, 2) - Math.pow(a, 2)) / (2 * b * c));
@@ -63,8 +63,8 @@ public class Main_triangle {
             angle3 = Math.toDegrees(x3);
 
             System.out.println("Angle (c): " + Math.floor(angle1));
-            System.out.println("Angle (c): " + Math.floor(angle2));
-            System.out.println("Angle (c): " + Math.floor(angle3));
+            System.out.println("Angle (b): " + Math.floor(angle2));
+            System.out.println("Angle (a): " + Math.floor(angle3));
         }else
             System.out.println("Triangle is not exist");
 
