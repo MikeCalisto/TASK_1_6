@@ -22,11 +22,8 @@ public class Main_triangle {
         System.out.print("Enter side (c): ");
         c = side.nextDouble();
 
-        //a + b > cb + c > aa + c > b
+        //a + b > cb + c > a * a + c > b
 
-        //v = a + b;
-        //u = c * b + c;
-        //j = a * a + c;
 
         v = a + b;
         u = a + c;
